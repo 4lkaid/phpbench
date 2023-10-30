@@ -20,6 +20,7 @@ server {
   location / {
     root   /usr/share/nginx/html/demo;
     index  index.html index.php;
+    try_files $uri $uri/ /index.php?$query_string;
   }
 
   location ~ \.php$ {
