@@ -1,16 +1,16 @@
 # phpbench
 
-使用 Docker Compose 快速构建 nginx + php 容器
+This project provides a quick setup for running nginx and PHP containers using Docker Compose. It allows users to easily configure and deploy a web server environment for PHP-based applications.
 
-## 如何构建 
+## How to Build 
 
-1. `git clone https://github.com/4lkaid/phpbench.git`
-2. `cd phpbench`
-3. `docker compose up -d`
+1. Clone this repository: `git clone https://github.com/4lkaid/phpbench.git`
+2. Navigate to the project directory: `cd phpbench`
+3. Start the containers: `docker compose up -d`
 
-## 配置示例
+## Configuration Example
 
-文件路径 `path/phpbench/html/demo/nginx.conf`
+File path: `path/phpbench/html/demo/nginx.conf`
 
 ```nginx
 server {
